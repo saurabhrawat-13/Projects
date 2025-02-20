@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-image: url(https://cyberpedia.reasonlabs.com/IMG/password%20generator.jpg);
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: rgb(10,10,165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05); 
+
+
+ }
+
+ input {
+    outline: none;
+    background: none;
+    border: none;
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 16px;
+ }
+
+ .eye-container {
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-50px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+
+ }
+
+ #eye-icon {
+    font-size: 20px;
+    color: rgb(221, 190, 190);
+    background-color: transparent;
+    transition: 0.2s ease;
+    background: none;
+ }
+
+ #eye-icon:hover {
+    color: rgb(10,10,165);
+    cursor: pointer;
+ }
+
+ 
+
