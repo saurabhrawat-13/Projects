@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    box-sizing: o;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    height: 100vh;
+    /* width: 100vh; */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: peru;
+    color: #fff;
+}
+
+.container {
+    background: brown;
+    height: 40vh;
+    width: 50vh;
+    padding: 10px 20px;
+}
+.container h1 {
+    color: burlywood;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+
+.username {
+    color: bisque;
+    padding: 10px;
+    box-shadow: inset;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    position: relative;
+    
+}
+
+.username input {
+    background: black;
+    padding: 10px 20px;
+    margin-left: 5px;
+    position: relative;
+    left: 30px;
+}
+
+.password {
+    color: bisque;
+    padding: 10px;
+    box-shadow: inset;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    margin-right: 30px;
+
+}
+
+.password input {
+        background: black;
+        padding: 10px 20px;
+        margin-left: 5px;
+        position: relative;
+        left: 30px;
+}
+
+.btn {
+    color: blanchedalmond;
+    background: black;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 20px;
+    
+}
+
